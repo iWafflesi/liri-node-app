@@ -74,7 +74,7 @@ var options = {
 					if (songName) {
 						options.spotifyThisSong(songName);
 					} else {
-						options.spotifyThisSong("The+Sign");
+						options.spotifyThisSong("The Sign - Ace of Base");
 					}
 					break;
 				case "movie-this":
@@ -113,7 +113,7 @@ switch (process.argv[2]) {
 		if (songName) {
 			options.spotifyThisSong(songName);
 		} else {
-			options.spotifyThisSong("The+Sign");
+			options.spotifyThisSong("The Sign - Ace of Base");
 		}
 		break;
 	case "movie-this":
